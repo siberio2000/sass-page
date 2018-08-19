@@ -1,0 +1,91 @@
+/* line 1, ../scss/base/_base.scss */
+body {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5em;
+  background: #f4f4f4;
+}
+
+/* line 9, ../scss/base/_base.scss */
+#container {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: auto;
+  overflow: auto;
+  border: #ccc solid 1px;
+  background: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+
+/* line 21, ../scss/base/_base.scss */
+section {
+  min-height: 200px;
+  margin: 15px;
+  max-width: 300px;
+}
+
+/* line 1, ../scss/base/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, ../scss/base/_reset.scss */
+ul, li {
+  list-style: none;
+}
+
+/* line 1, ../scss/layout/_header.scss */
+header {
+  background: #009d99;
+  color: #fff;
+  height: 90px;
+}
+/* line 6, ../scss/layout/_header.scss */
+header h1 {
+  padding: 20px 0 0 10px;
+}
+
+/* line 1, ../scss/layout/_nav.scss */
+nav {
+  height: 30px;
+  background: #745454;
+  color: white;
+}
+
+/* line 7, ../scss/layout/_nav.scss */
+nav li {
+  float: left;
+  padding: 5px 20px 0 20px;
+}
+
+/* line 12, ../scss/layout/_nav.scss */
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 1, ../scss/layout/_aside.scss */
+aside {
+  display: block;
+  margin: 10px;
+}
+
+/* line 6, ../scss/layout/_aside.scss */
+aside img {
+  max-width: 200px;
+  width: 100%;
+  float: right;
+}
+
+/* line 1, ../scss/layout/_footer.scss */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #009d99;
+  color: white;
+}

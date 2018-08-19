@@ -1,0 +1,15 @@
+nav {
+    height: 30px;
+    background: $secondary-color;
+    color: $text-color;
+}
+
+nav li {
+    float: left;
+    padding: 5px 20px 0 20px;
+}
+
+nav a {
+    color: $text-color;
+    text-decoration: none;
+}
